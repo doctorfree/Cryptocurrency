@@ -2,7 +2,6 @@
 
 TOP=$HOME/src/coins/litecoin
 BDB="/usr/local/BerkeleyDB.4.8"
-#BDB="/usr"
 BDBINC="${BDB}/include"
 BDBLIB="${BDB}/lib"
 OS=`uname`

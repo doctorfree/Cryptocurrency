@@ -1,8 +1,7 @@
 #!/bin/bash
 
 TOP=$HOME/src/coins/emercoin
-#BDB="/usr/local/BerkeleyDB.4.8"
-BDB="/usr"
+BDB="/usr/local/BerkeleyDB.4.8"
 BDBINC="${BDB}/include"
 BDBLIB="${BDB}/lib"
 OS=`uname`
