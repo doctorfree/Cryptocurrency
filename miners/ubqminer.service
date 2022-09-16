@@ -1,0 +1,11 @@
+[Unit]
+Description=ubqminer service, starts the ubqminer UBIQ miner
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/start_ubqminer -d 30 -s
+ExecStop=/usr/local/bin/stop_ubqminer
+
+[Install]
+WantedBy=multi-user.target
